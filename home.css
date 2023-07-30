@@ -1,0 +1,123 @@
+html {
+    background-image:linear-gradient(#fc5e55, #fa4083);
+}
+body {
+    background-image: url(image/image-lion-background.png);
+    background-repeat: no-repeat;
+    color: white;
+ 
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+
+.container {
+    width: 1000px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid lightgrey;
+
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.butttn {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.div-container {
+    display: flex;
+    align-items: center;
+}
+
+#main-container {
+min-height:300px; 
+display: flex;
+align-items: center;
+text-align: left;
+}
+
+
+}
+.div1 {
+    
+     display: flex;
+     width: 60%;
+     height: 200px;
+    justify-content: start;
+ 
+}
+
+.buttn {
+   display: inline;
+    width: 100px;
+    height: 50px;
+}
+
+.div2 {
+    display: flex;
+    width: 40%;
+    height: 200px;
+    justify-content:end; 
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.testomonial {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-bottom: 20px;
+}
+
+.testo-div {
+    width: 47%;
+    padding: 30px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+textarea {
+    height: 100px;
+    width: 80%;
+}
+input [type=text], input[type=email], textarea {
+    padding: 12px 20px;
+    width: 100%;box-sizing: border-box;
+}
+.forms-div {
+display: flex;
+flex-direction: column;
+
+}
+form {
+    margin:40px 0;
+}
+.contact-container {
+   display: flex;
+   flex-direction: column;
+   padding: 0 5px;
+}
+h1 {
+    font-size: 300px;
+}
