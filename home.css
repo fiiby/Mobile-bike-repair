@@ -52,8 +52,6 @@ align-items: center;
 text-align: left;
 }
 
-
-}
 .div1 {
     
      display: flex;
@@ -91,11 +89,12 @@ text-align: left;
 }
 
 .testo-div {
-    width: 47%;
-    padding: 30px;
+    width: 40%;
+    padding: 20px;
     border: 2px solid white;
     box-sizing: border-box;
     margin-top: 50px;
+
 }
 textarea {
     height: 100px;
